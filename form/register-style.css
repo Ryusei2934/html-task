@@ -1,0 +1,62 @@
+#hissu{
+    border-radius: 5px;
+    color: white;
+    background-color: red;
+    height: 23px;
+    display: inline;
+}
+.inline-block{
+    display: inline-block;
+}
+.inline-block1{
+    display: inline-block;
+}
+#ID1{
+    background-color:rgb(162, 148, 131);
+    width: 280px;
+    height: 50px;
+    border: 1px solid white;
+    float: left;
+}
+#ID2{
+    background-color: rgb(227, 217, 199);
+    width: 450px;
+    height: 50px;
+    border: 1px solid white;
+
+}
+#ID3{
+    background-color:rgb(162, 148, 131);
+    width: 280px;
+    height: 130px;
+    border: 1px solid white;
+    float: left;
+}
+#ID4{
+    background-color: rgb(227, 217, 199);
+    width: 450px;
+    height: 130px;
+    border: 1px solid white;
+
+}
+#IDh{
+    color: white;
+    display: inline;
+}
+#IDb{
+    color: black;
+    display: inline;
+}
+#IDp{
+    background-color:rgb(162, 148, 131);
+}
+#email{
+    display: inline;
+}
+#name{
+    display: inline;
+}
+#button_Style{
+    height: 40px;
+    width:200px ;
+}
