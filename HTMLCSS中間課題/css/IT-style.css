@@ -1,0 +1,48 @@
+
+#num{
+    float:left;
+    margin-left: 22%;
+}
+
+.menu a h2{
+    border-bottom: solid rgb(255, 255, 255);
+    margin:  2rem 20% 2rem 20%;
+
+}
+.menu a {
+    color:inherit;
+    text-decoration: none;
+}
+.menu a:hover{
+    font-size: 17px;
+}
+#shita{
+    float:right;
+    margin-right: 22%;
+}
+.Sec1{
+    margin:10rem 10% auto 10%;
+    padding: 3rem 3rem 3rem 3rem;
+    border: solid black;
+}
+.Sec1 h2{
+    text-align: center;
+}
+.Sec1{
+    margin:10rem 10% auto 10%;
+    padding: 3rem 3rem 3rem 3rem;
+    border: solid black;
+    background-color: beige;
+}
+.Sec1 h2{
+    border-bottom: solid skyblue;
+    text-align: center;
+}
+.sauce{
+    
+    width: 30%;
+    background-color: rgb(102, 229, 102) ;
+    color: #FFF;
+    text-align: center;
+    margin : 10rem 0% 5rem 70%;
+}

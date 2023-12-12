@@ -1,0 +1,53 @@
+.con1{
+    margin: 3rem 4rem 5rem 4rem;
+    padding: 1rem 1rem 1rem 1rem;
+    background-color:  beige;
+    display: flex;
+    justify-content:space-between;
+    border: solid skyblue 4px;
+}
+.con1 h2{
+    text-align: center;
+}
+.dummy{
+    border: solid skyblue 1px;
+}
+.exp{
+margin: 1rem 1rem 1rem 1rem;
+}
+.req{
+    margin: 1rem 1rem 1rem 1rem;
+}
+.req h3{
+    background-color: cornflowerblue;
+    text-align: center;
+}.req p{
+    background-color: skyblue;
+    margin-bottom: 1rem;
+    padding: 10px 10px 10px 10px;
+}
+.title1{
+    display: flex;
+    justify-content: center;
+}
+.title1 h1{
+    margin-top: 10rem;
+    text-align: center;
+    background-color: beige;
+    width: 25%;
+    border: solid skyblue 4px;
+}
+.title2{
+    display: flex;
+    justify-content: center;
+}
+.title2 h1{
+    margin-top: 10rem;
+    text-align: center;
+    background-color: beige;
+    width: 30%;
+    border: solid skyblue 4px;
+}
+.marg{
+
+}

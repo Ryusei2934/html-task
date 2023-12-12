@@ -1,0 +1,42 @@
+body{
+    background-color:rgb(102, 229, 102) ;
+    background-size: auto;
+}
+.index_main{
+    display: flex;
+    justify-content:center;
+}
+.links li{ 
+    list-style: none;
+    text-align: center;
+    margin: 3rem 10% 3rem 3rem;
+    padding: 1rem 1rem 1rem 1rem;
+    background-color: beige;
+    width: 50rem;
+}
+.links a:hover{
+    text-decoration: none;
+}
+#mg {
+    margin-bottom: 25%;
+}
+.Self{
+    list-style: none;
+    text-align: center;
+    margin: 3rem 3rem 3rem 10%;;
+    padding: 1rem 1rem 1rem 1rem;
+    background-color: beige;
+    width: 20rem;
+    height: 26rem;
+}
+.Self p{
+    font-size: 2rem;
+    margin: 1rem 0 1rem 0;
+    text-shadow:1px 1px 0 #FFF, -1px -1px 0 #FFF,
+    -1px 1px 0 #FFF, 1px -1px 0 #FFF,
+    0px 1px 0 #FFF,  0-1px 0 #FFF,
+    -1px 0 0 #FFF, 1px 0 0 #FFF;
+}
+#name{color: cornflowerblue;}
+#id{color: crimson}
+#stu{color: yellowgreen;}
