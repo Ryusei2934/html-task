@@ -1,0 +1,310 @@
+body {
+    background-color: rgb(127, 127, 230);
+    overflow-x: hidden;
+    background-image: url("../img/chara_img/SF6_chara.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main {
+    width: 100%;
+    position: relative;
+    display: block;
+    z-index: 2;
+}
+
+.element {
+    padding: 5%;
+    overflow: hidden;
+    height: auto;
+    margin-top: 97vh;
+    background-color: rgba(150, 150, 150, 0.9);
+    mix-blend-mode: exclusion;
+    padding-top: 10vh;
+    z-index: 1;
+}
+
+.dummy {
+    padding-top: 8vh;
+}
+
+section {
+    h1 {
+        text-align: center;
+        font-size: 3rem;
+    }
+
+    h2 {
+        margin-left: 3Vw;
+    }
+
+    ul {
+        margin-left: 5vw;
+    }
+
+    li {
+        list-style: disc;
+        margin: 10px auto;
+        font-size: 1.1rem;
+    }
+}
+
+.img {
+    text-align: center;
+    margin: 3rem;
+}
+
+img {
+    width: 60vw;
+    height: auto;
+}
+
+.main_nav {
+    justify-content: center;
+    text-align: center;
+}
+
+.main_nav a {
+    color: whitesmoke;
+    font-size: 1.7rem;
+    line-height: 80px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.main_nav h2 {
+    border-bottom: solid whitesmoke 3px;
+    margin: 5% 30%;
+}
+
+.sec1 {
+    padding: 5%;
+    height: auto;
+    margin: 100px auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+    p{
+        font-size: 1.2rem;
+        margin: 3rem;
+    }
+}
+
+.Separator1 h1 {
+    text-align: center;
+    margin: 7rem 41%;
+    font-size: 4rem;
+    color: whitesmoke;
+    font-family: serif;
+    border-bottom: solid whitesmoke 4px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+
+.pagetop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+
+    a {
+        display: block;
+        width: 50px;
+        height: 50px;
+        line-height: 45px;
+        text-align: center;
+        font-size: 20px;
+        color: #000;
+        background: #FFF;
+        border-radius: 50%;
+        box-shadow: 0 1px 5px rgba(0, 0, 0, .20);
+    }
+
+    a:hover{
+        background: #cbcbcb;
+    }
+}
+
+.images{
+
+    justify-content: center;
+    text-align: center;
+    img{
+        width: 20vw;
+        height: 21vh;
+    }
+
+}
+
+a{
+    filter: grayscale(100);
+    transition: 0.5s;
+}
+
+a:hover{
+    filter: grayscale(0);
+    transition: 0.5s;
+}
+
+.cs h1{
+    text-align: center;
+    font-family: serif;
+    color: whitesmoke;
+    border-bottom: solid whitesmoke;
+    font-size: 3rem;
+    margin: 10vh auto;
+    width: 50vw;
+    text-shadow: 0 0 4px #666565;
+}
+
+.i1{
+    border: solid rgb(167, 167, 255) 2px;
+}
+
+.i2{
+    border: solid orange 2px;   
+}
+
+.i3{
+    border: solid skyblue 2px;   
+}
+
+.i4{
+    border: solid yellow 2px;   
+}
+
+.i5{
+    border: solid red 2px;   
+}
+
+.i6{
+    border: solid yellowgreen 2px;   
+}
+
+.i7{
+    border: solid purple 2px;   
+}
+
+.i8{
+    border: solid indigo 2px;   
+}
+
+.i9{
+    border: solid green 2px;   
+}
+
+.i10{
+    border: solid aqua 2px;   
+}
+
+.i11{
+    border: solid burlywood 2px;   
+}
+
+.i12{
+    border: solid rgb(128, 216, 240) 2px;   
+}
+
+.i13{
+    border: solid rgb(83, 229, 83) 2px;   
+}
+
+.i14{
+    border: solid khaki 2px;   
+}
+
+.i15{
+    border: solid salmon 2px;   
+}
+
+.i16{
+    border: solid rgb(101, 238, 210) 2px;   
+}
+
+.i17{
+    border: solid rgb(213, 76, 76) 2px;   
+}
+
+.i18{
+    border: solid gold 2px;   
+}
+
+.i19{
+    border: solid rgba(177, 122, 122, 0.9) 2px;   
+}
+
+.i20{
+    border: solid rgb(194, 15, 194) 2px;   
+}
+
+.cg1{
+    display: flex;
+    img{
+        width: 50vw;
+        box-shadow: 0 0 4px #666565;
+    }
+}
+
+.cgtext{
+    width: 50vw;
+    margin-left: 5vw;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 0 0 4px #666565;
+}
+.cgtext h2{
+    text-align: center;
+    font-size: 2.3rem;
+    font-family: serif;
+    text-shadow: 0 0 1px #666565;
+}
+
+h3{
+    width: 20vw;
+    font-family: serif;
+    margin: 5vh auto;
+    text-align: center;
+    font-size: 2rem;
+    color: #666565;
+    border-bottom: solid #666565 2px;
+}
+
+.cgtext p{
+    color: #333333;
+    margin: 2vh 5vw ;
+    font-family: serif;
+}
+
+.cv p{
+    text-align:center;
+}
+
+.cg2{
+    margin-top: 3vh;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 4px #666565;
+    padding-bottom:  3vh;
+}
+
+.cg2text p{
+    color: #333333;
+    margin: 3vh;
+    font-size: 1.3rem;
+    font-family: serif;
+}
+
+.outfit img{
+    margin-top: 3vh;
+    border-radius: 20px;
+    width: 89vw;
+    box-shadow: 0 0 4px #666565;
+}
+
+.dummy{
+    padding-top: 20vh;
+}

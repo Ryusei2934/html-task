@@ -1,0 +1,195 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10vh;
+    background-color: rgba(17, 32, 93, 0.8);
+    z-index: 999;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.nav {
+    top: 0;
+    left: 0;
+    height: 10vh;
+    padding: 0 20px;
+    background-color: rgba(181, 175, 212, 0.3);
+    width: 100vw;
+    position: fixed;
+    z-index: 101;
+    display: flex;
+    overflow: hidden;
+
+    ul,
+    li {
+        display: flex;
+    }
+
+    h1 {
+        font-size: 1.3rem;
+        color: white;
+        text-align: center;
+        margin-left: 1vw;
+        margin-top: 1vh;
+        margin-right: 4vw;
+    }
+
+    h2 {
+        font-family: "H1", sans-serif;
+        margin: auto 2vw;
+        margin-top: 2vh;
+        color: rgb(255, 255, 255);
+        transform: skewX(20deg); 
+        width: 12vw;
+        text-align: center;
+        transition: transform 0.5s;
+    }
+
+    .nav1:hover h2, .nav2:hover h2 {
+        transform: skewX(20deg);
+    }
+
+    h3 {
+        position: absolute;
+
+        right: 5vw;
+        font-size: 1.7rem;
+        color: white;
+        padding: 1vh 1vw;
+        border-radius: 10px;
+        background-color: rgba(110, 236, 158, 0.8);
+    }
+
+    .nav1{
+        margin: 0 4px;
+        transition:0.5s;
+        font-size: 1.5rem;
+        background-color: rgba(111, 93, 192, 0.7);
+        transform: skewX(-20deg);
+        transform-origin: top;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+    .nav1:hover{
+        transition:0.5s;
+        background-color: rgba(181, 170, 239, 0.9);
+    }
+    .nav1::before {
+        background: #ffffff;
+        content: '';
+        width: 100%;
+        height: 3px;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        margin: auto;
+        transform-origin: right top;
+        transform: scale(0, 1);
+        transition: transform .3s;
+    }
+    .nav1:hover::before {
+        transform-origin: left top;
+        transform: scale(1, 1);
+    }
+
+    .nav2{
+        margin: 0 4px;
+        transition:0.5s;
+        font-size: 1.5rem;
+        background-color: rgba(203, 179, 44, 0.7);
+        transform: skewX(-20deg);
+        transform-origin: top; 
+        align-items: center; 
+        justify-content: center; 
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+    .nav2:hover{
+        transition:0.5s;
+        background-color: rgba(221, 220, 153, 0.9); 
+    }
+    .nav2::before {
+        background: #ffffff;
+        content: '';
+        width: 100%;
+        height: 3px;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        margin: auto;
+        transform-origin: right top;
+        transform: scale(0, 1);
+        transition: transform .3s;
+    }
+    .nav2:hover::before {
+        transform-origin: left top;
+        transform: scale(1, 1);
+    }
+
+    .nav3{
+        margin: 0 4px;
+        transition:0.5s;
+        font-size: 1.5rem;
+        background-color: rgba(242, 78, 78, 0.7); 
+        transform: skewX(-20deg);
+        transform-origin: top;
+        align-items: center; 
+        justify-content: center; 
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+    .nav3:hover{
+        transition:0.5s;
+        background-color: rgba(232, 140, 140, 0.9);
+    }
+    .nav3::before {
+        background: #ffffff;
+        content: '';
+        width: 100%;
+        height: 3px;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        margin: auto;
+        transform-origin: right top;
+        transform: scale(0, 1);
+        transition: transform .3s;
+    }
+    .nav3:hover::before {
+        transform-origin: left top;
+        transform: scale(1, 1);
+    }
+
+    .nav4{
+        margin: 0 4px;
+        transition:0.5s;
+        font-size: 1.5rem;
+        background-color: rgba(59, 198, 77, 0.7); 
+        transform: skewX(-20deg);
+        transform-origin: top;
+        align-items: center; 
+        justify-content: center; 
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+    .nav4:hover{
+        transition:0.5s;
+        background-color: rgba(158, 247, 179, 0.9);
+    }
+    .nav4::before {
+        background: #ffffff;
+        content: '';
+        width: 100%;
+        height: 3px;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        margin: auto;
+        transform-origin: right top;
+        transform: scale(0, 1);
+        transition: transform .3s;
+    }
+    .nav4:hover::before {
+        transform-origin: left top;
+        transform: scale(1, 1);
+    }
+}
